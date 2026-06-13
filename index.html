@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Common Foot Problems Treated in Podiatry Clinics</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Inter Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+    .brand { color:#0ea5e9; }
+    .brand-bg { background:#0ea5e9; }
+    .brand-bg-dark { background:#0369a1; }
+  </style>
+  <meta name="description" content="Foot problems are very common and can affect people of all ages. At a Podiatry Clinic, a trained Podiatrist diagnoses and treats a wide range of conditions that cause pain, discomfort, and difficulty in walking. Early treatment can prevent minor issues from becoming serious long-term problems." />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Common Foot Problems Treated in Podiatry Clinics" />
+  <meta property="og:description" content="Foot problems are very common and can affect people of all ages. At a Podiatry Clinic, a trained Podiatrist diagnoses and treats a wide range of conditions that cause pain, discomfort, and difficulty in walking. Early treatment can prevent minor issues from becoming serious long-term problems." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://tdpodiatry.com/" />
+  <meta property="og:image" content="https://tdpodiatry.com/custom_images/logo.png" />
+  <link rel="icon" href="https://tdpodiatry.com/custom_images/logo.png"/>
+  <style>
+    /* Simple fade-in */
+    .animate-fade { animation: fade 0.8s ease-out both; }
+    @keyframes fade { from { opacity: 0; transform: translateY(8px);} to { opacity:1; transform: translateY(0);} }
+  </style>
+  
+  <!-- JSON-LD: LocalBusiness -->
+  <script type="application/ld+json">
+ <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalClinic",
+  "name": "TD Podiatry",
+  "url": "http://tdpodiatry.com/",
+  "telephone": "212-933-9023",
+  "image": "",
+  "description": "TD Podiatry is dedicated to providing high-quality foot and ankle care through a combination of medical expertise and advanced treatment options. The clinic manages a wide range of conditions, from everyday discomfort to complex concerns, with precision and professionalism. Patients receive individualized care in a welcoming environment that emphasizes comfort, mobility, and long-term health.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Street Level, 156 William St Suite #103",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10038",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "",
+    "longitude": ""
+  },
+  "openingHours": [
+    "Mo-Fr 08:00-18:00"
+  ],
+  "paymentAccepted": "Cash, Credit Card",
+  "priceRange": "$$",
+  "sameAs": [
+    "https://www.google.com/maps?cid=18339945039123763887"
+  ],
+  "medicalSpecialty": [
+    "Podiatry",
+    "Foot and Ankle Care"
+  ],
+  "availableService": [
+    "Podiatrist",
+    "Foot Specialist",
+    "Ankle Doctor",
+    "Heel Pain Specialist",
+    "Foot Pain Specialist",
+    "Foot Pain Doctor",
+    "Bunion Specialist",
+    "Ingrown Toenail Removal",
+    "Toenail Fungus Treatment",
+    "Plantar Fasciitis Treatment",
+    "Diabetic Foot Care",
+    "Corn Removal",
+    "Wart Removal",
+    "Sports Medicine"
+  ]
+}
+</script>
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <!-- Header -->
+  <header class="bg-white/90 backdrop-blur shadow-sm fixed w-full top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-3">
+      <span class="font-extrabold tracking-tight text-slate-900 text-xl">TD. <span class="brand">Podiatry</span></span>
+      </a>
+      <nav class="hidden md:flex items-center gap-8 font-semibold">
+        <a href="#about" class="hover:text-sky-600">About</a>
+        <a href="#activities" class="hover:text-sky-600">Activities</a>
+        <a href="#why" class="hover:text-sky-600">Why Us</a>
+        <a href="#faq" class="hover:text-sky-600">FAQ</a>
+        <a href="#contact" class="hover:text-sky-600">Contact</a>
+      </nav>
+      <div class="hidden md:flex items-center gap-3">
+        <a href="tel:+2129339023" class="brand-bg text-white font-bold py-2 px-4 rounded-full hover:brand-bg-dark transition">Call +2129339023</a>
+      </div>
+      <button class="md:hidden" id="menuBtn" aria-label="Open menu">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 text-slate-700"><path d="M3.75 5.25h16.5v1.5H3.75v-1.5Zm0 6h16.5v1.5H3.75v-1.5Zm0 6h16.5v1.5H3.75v-1.5Z"/></svg>
+      </button>
+    </div>
+    <div id="mobileMenu" class="md:hidden hidden border-t border-slate-100">
+      <nav class="px-4 py-3 grid gap-3 bg-white">
+        <a href="#about" class="py-2">About</a>
+        <a href="#activities" class="py-2">Activities</a>
+        <a href="#why" class="py-2">Why Us</a>
+        <a href="#faq" class="py-2">FAQ</a>
+        <a href="#contact" class="py-2">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home" class="pt-24 md:pt-28">
+    <!-- Hero -->
+    <section class="relative overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-br from-sky-900 via-sky-700 to-cyan-600"></div>
+      <div class="absolute inset-0 opacity-30" style="background-image: radial-gradient(circle at 20% 10%, rgba(255,255,255,.3) 0 20%, transparent 21%), radial-gradient(circle at 80% 60%, rgba(255,255,255,.25) 0 18%, transparent 19%);"></div>
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 text-center text-white">
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight animate-fade">Common Foot Problems Treated in Podiatry Clinics</h1>
+        <p class="mt-4 text-lg md:text-xl max-w-3xl mx-auto opacity-95">Foot problems are very common and can affect people of all ages. At a Podiatry Clinic, a trained Podiatrist diagnoses and treats a wide range of conditions that cause pain, discomfort, and difficulty in walking.</p>
+        <div class="mt-8 flex items-center justify-center gap-4">
+          <a href="#activities" class="bg-white text-sky-700 font-bold py-3 px-6 rounded-full hover:bg-slate-100 transition">Explore Activities</a>
+        </div>
+        <div class="mt-6 text-sm opacity-90">Hours: 08:00 AM–06:00 PM 
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-16 md:py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-10 brand">About Us</h2>
+        <div class="grid md:grid-cols-2 gap-10 items-center">
+          <div class="space-y-4 text-lg text-slate-600">
+            <p><strong>TD Podiatry</strong> At our Podiatry Clinic, we are dedicated to providing exceptional foot and ankle care for patients of all ages. Our experienced Podiatrist and Foot Specialist team is committed to helping individuals overcome pain, improve mobility, and maintain healthy, active lifestyles through personalized treatment and compassionate care.</p>
+            <p>We understand that foot and ankle problems can affect every aspect of daily life. Whether you are dealing with chronic discomfort, sports injuries, mobility issues, or diabetic foot concerns, our Foot Pain Specialist, Foot Pain Doctor, and Ankle Doctor work closely with you to identify the root cause of your symptoms and develop an effective treatment plan tailored to your needs.</p>
+            <ul class="list-disc list-inside">
+              <li>Foot Specialist</li>
+              <li>Ankle Doctor</li>
+              <li>Heel Pain Specialist</li>
+            </ul>
+          </div>
+          <div class="relative">
+            <div class="absolute -inset-2 rounded-2xl bg-sky-100 -z-10"></div>
+            <img src="https://tdpodiatry.com/custom_images/slider/645_11th/6.jpg"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Activities / Services -->
+    <section id="activities" class="py-16 md:py-24 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-12 brand">Foot Types & Pain Specialist</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Card -->
+          <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition text-center">
+            <h3 class="text-xl font-bold mb-2">Podiatry</h3>
+            <p class="text-slate-600">Podiatry focuses on the diagnosis, treatment, and prevention of conditions affecting the feet, ankles, and lower limbs.</p>
+          </div>
+          <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition text-center">
+            <h3 class="text-xl font-bold mb-2">Podiatrist</h3>
+            <p class="text-slate-600">A Podiatrist is a medical specialist trained to diagnose and treat a wide range of foot and ankle conditions.</p>
+          </div>
+          <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition text-center">
+            <h3 class="text-xl font-bold mb-2">Best Podiatry</h3>
+            <p class="text-slate-600">Choosing the Best Podiatry care means receiving expert treatment, advanced diagnostic services, and personalized solutions designed to improve foot health, relieve pain, and restore mobility for long-term wellness.</p>
+          </div>
+          <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition text-center">
+            <h3 class="text-xl font-bold mb-2">Podiatry Clinic</h3>
+            <p class="text-slate-600">A Podiatry Clinic provides specialized care for foot and ankle conditions, offering comprehensive evaluations, customized treatment plans, preventive care, and advanced therapies for patients of all ages.</p>
+          </div>
+        </div>
+        <div class="mt-10 text-center">
+          <a href="#contact" class="brand-bg text-white font-bold py-3 px-8 rounded-full hover:brand-bg-dark transition">Best Podiatry Clinic</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="why" class="py-16 md:py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-12 brand">Why Choose Podiatry?</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-slate-50 rounded-2xl p-6 shadow">
+            <h4 class="font-bold text-lg mb-2">Specialized Expertise</h4>
+            <p class="text-slate-600">Podiatrists are trained specifically in foot, ankle, and lower limb conditions.</p>
+          </div>
+          <div class="bg-slate-50 rounded-2xl p-6 shadow">
+            <h4 class="font-bold text-lg mb-2">Accurate Diagnosis</h4>
+            <p class="text-slate-600">Advanced assessment techniques help identify the root cause of pain and discomfort.</p>
+          </div>
+          <div class="bg-slate-50 rounded-2xl p-6 shadow">
+            <h4 class="font-bold text-lg mb-2">Personalized Treatment Plans</h4>
+            <p class="text-slate-600">Care is tailored to your individual needs, lifestyle, and health goals.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-16 md:py-24 bg-slate-50">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-10 brand">Frequently Asked Questions</h2>
+        <div class="space-y-4">
+          <!-- Item -->
+          <div class="bg-white rounded-xl shadow overflow-hidden">
+            <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-semibold text-slate-700 hover:bg-slate-50 focus:outline-none faq-toggle">
+              <span>What is a podiatrist?</span>
+              <svg class="w-6 h-6 transform transition-transform duration-300 brand" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-content px-6 pb-4 hidden text-slate-600">A podiatrist is a healthcare professional who specializes in diagnosing, treating, and preventing conditions affecting the feet, ankles, and lower limbs.</div>
+          </div>
+          <div class="bg-white rounded-xl shadow overflow-hidden">
+            <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-semibold text-slate-700 hover:bg-slate-50 focus:outline-none faq-toggle">
+              <span>When should I see a foot specialist?</span>
+              <svg class="w-6 h-6 transform transition-transform duration-300 brand" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-content px-6 pb-4 hidden text-slate-600">You should see a foot specialist if you experience persistent foot pain, heel pain, ankle pain, swelling, numbness, difficulty walking, or changes in your toenails or foot structure.</div>
+          </div>
+          <div class="bg-white rounded-xl shadow overflow-hidden">
+            <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-semibold text-slate-700 hover:bg-slate-50 focus:outline-none faq-toggle">
+              <span>Can a podiatrist help with heel pain?</span>
+              <svg class="w-6 h-6 transform transition-transform duration-300 brand" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-content px-6 pb-4 hidden text-slate-600">Yes. A heel pain specialist can diagnose the underlying cause of your discomfort and recommend treatments such as custom orthotics, stretching programs, physical therapy, medication, or other advanced treatments.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact + Map -->
+    <section id="contact" class="py-16 md:py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-12 brand">Contact Us</h2>
+        <div class="grid md:grid-cols-2 gap-10 items-start">
+          <div>
+            <p class="text-lg text-slate-700 mb-4"><strong>Business Name:</strong> TD Podiatry</p>
+            <ul class="text-slate-700 text-lg space-y-2 mb-6">
+              <li><strong>Address:</strong> Street Level, 156 William St Suite #103, New York, NY 10038</li>
+              <li><strong>Phone:</strong> <a href="tel:+12129339023" class="text-sky-600 hover:underline">+12129339023</a></li>
+              <li><strong>Website:</strong> <a href="http://tdpodiatry.com/" class="text-sky-600 hover:underline" target="_blank" rel="noopener">http://tdpodiatry.com/</a></li>
+              <li><strong>Hours:</strong> 08:00 AM–06:00 PM        </ul>
+            <div class="flex items-center gap-3">
+            
+            </div>
+          </div>
+          <div>
+            <div class="rounded-2xl shadow overflow-hidden">
+              <!-- Provided Google Map iframe -->
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.3622093535105!2d-74.0057054!3d40.7100422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25b0211911e11%3A0xfe8492d80928d2af!2sTD%20Podiatrist%20-%20William%20St!5e0!3m2!1sen!2s!4v1781349040100!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Related Searches / Keywords -->
+    <section class="py-16 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h3 class="text-2xl font-bold text-center mb-6 brand">Related Searches</h3>
+        <ul class="flex flex-wrap justify-center gap-2 text-slate-700">
+          <li class="px-3 py-1 rounded-full bg-white shadow">Podiatry</li>
+          <li class="px-3 py-1 rounded-full bg-white shadow">Podiatrist</li>
+          <li class="px-3 py-1 rounded-full bg-white shadow">Best Podiatry</li>
+          <li class="px-3 py-1 rounded-full bg-white shadow">Podiatry Clinic</li>
+          <li class="px-3 py-1 rounded-full bg-white shadow">Foot Specialist</li>
+          <li class="px-3 py-1 rounded-full bg-white shadow">Ankle Doctor</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 text-slate-300 py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
+      <p>&copy; <span id="year"></span> TD Podiatry' Flow — All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- FAQ Script & Mobile Menu -->
+  <script>
+    document.querySelectorAll('.faq-toggle').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const content = btn.nextElementSibling;
+        const icon = btn.querySelector('svg');
+        content.classList.toggle('hidden');
+        icon.classList.toggle('rotate-180');
+      });
+    });
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    if (menuBtn) menuBtn.addEventListener('click', ()=> mobileMenu.classList.toggle('hidden'));
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
